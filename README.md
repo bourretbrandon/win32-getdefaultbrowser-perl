@@ -9,10 +9,6 @@ use Win32::GetDefaultBrowser;
  
 my $default_browser = get_default_browser;
 
-DESCRIPTION
-
-Returns the full path to the default browser on a Windows system.
-
 Pollutes the namespace with one function: get_default_browser.
 
 METHODS
